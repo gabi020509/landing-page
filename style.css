@@ -1,3 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.logotipo{
+    height: 250px;
+}
+
 header{
     background-color: mediumpurple;
+}
+
+#produtos{
+    background-color: aquamarine;
+    height: 700px;
+    padding-top: 30px;
+}
+
+#historia{
+    background-color: blueviolet;
+    height: 700px;
+}
+
+#nigga{
+    background-color: brown;
+    height: 700px;
+}
+
+.menu{
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cyan;
+    transition: 0.9s;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: darkcyan;
+    text-decoration: underline;
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.texto_1{
+    background-color: rgba(125, 55, 190, 0.281);
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.texto_1:hover{
+    background-color: rgb(201, 72, 21);
+}
+.texto_1 p{
+    /*border: solid rgb(30, 218, 146) 2px;*/
+    text-align: justify;
 }
