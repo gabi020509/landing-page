@@ -8,11 +8,11 @@ body{
 }
 
 .logotipo{
-    height: 250px;
+    height: 20px;
 }
 
 header{
-    background-color: mediumpurple;
+    background-color: rgb(54, 64, 207);
 }
 
 #produtos{
@@ -65,10 +65,27 @@ header{
     border-radius: 10px;
     transition: 0.4s;
 }
+
 .texto_1:hover{
-    background-color: rgb(201, 72, 21);
+    background-color: rgb(204, 235, 154);
 }
+
 .texto_1 p{
     /*border: solid rgb(30, 218, 146) 2px;*/
     text-align: justify;
+}
+
+.card{
+    border: solid 2px black;
+    width: 300px;
+    height: 500px;
+}
+
+.imagemcard{
+    width: 280px;
+}
+
+.preço{
+    color: rgb(223, 209, 19);
+    font-size: larger;
 }
